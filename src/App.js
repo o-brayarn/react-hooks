@@ -1,10 +1,10 @@
-import Checkbox from "./Checkbox";
+import StarRating from "./StarRating";
 import "./styles.css";
 
 export default function App() {
   return (
     <div className="App">
-      <Checkbox />
+      <StarRating totalStars={5} />
     </div>
   );
 }
