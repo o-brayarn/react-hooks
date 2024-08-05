@@ -1,4 +1,4 @@
-import Checkbox from "./checkbox";
+import Checkbox from "./Checkbox";
 import "./styles.css";
 
 export default function App() {
