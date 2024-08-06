@@ -1,12 +1,10 @@
-import { useState } from "react";
-import StarRating from "./StarRating";
 import "./styles.css";
-import CelebrateWinner from "./CelebrateWinner";
+import AdditionalHooks from "./AdditionalHooks";
 
 export default function App() {
   return (
     <div className="App">
-      <CelebrateWinner />
+      <AdditionalHooks />
     </div>
   );
 }
